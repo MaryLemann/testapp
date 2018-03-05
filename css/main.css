@@ -1,0 +1,330 @@
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.4;
+}
+.body{
+    margin: 0px;
+}
+.wrapper {
+    height: 100%;
+    min-width: 1100px;
+        }
+.section{
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.maincontent{
+    height: 100%;
+}
+.container{
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+}
+* {
+box-sizing:border-box;
+}
+.welcome{
+    background: url(../img/fon/texture1.png) center center no-repeat;
+    vertical-align: middle;
+}
+.welcome__header{
+display: flex;
+justify-content: space-between;
+padding-top: 10px;
+}
+.welcome__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    font-weight: normal;
+}
+p{
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button_color_orange{
+background-color: #e45028;
+transition: .3s;
+}
+.button_color_orange:hover{
+    background-color: #c1401e;
+}
+.button{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+   transition: .3s;
+    color: #fff;
+    padding: 13px 16px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    }
+    .button{
+margin-left: 15px;
+    }
+.nav__list {
+    display: flex;
+    font-family: 'ubuntumedium';
+    text-transform: uppercase;
+}
+.nav__item{
+    flex-direction: column;
+}
+
+.nav__item: first :first-child{
+    list-style: none;
+}
+
+.nav__link {
+        font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 36px;
+    margin: 0 auto;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-left: 8px;
+}
+.welcome-content{
+    display: flex;
+    align-items: center;
+}
+.welcome-content_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-content_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.welcome-content__description{
+    font-size: 65px;
+    font-family: 'lifehackmedium';
+    color: #fff;
+    letter-spacing: -0.9px;
+    line-height: 0.923;
+}
+.arrow{
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    text-align: center;
+    transform: translateX(-50%);
+}
+.paginator{
+position: fixed;
+top: 74px;
+right: 26px;
+z-index: 50;
+}
+.paginator__list {
+    list-style: none;
+}
+.paginator__item {
+   margin-bottom: 10px;
+}
+
+.paginator__link{
+    display: block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    transition: 0.3s;
+    position: relative;
+}
+.paginator__link:hover{
+    border: 1px solid #fff;
+}
+.paginator__link::before{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*-------------- !!!!!!!!!!!!!!!!!!!СЕКЦИЯ о нас!!!!!!!!!!!!!!!!!!!!-------------*/
+.about{
+    background:  url(../img/fon/bg2.png) no-repeat;
+}
+.title__about-title{
+        display: flex;
+        justify-content: center;
+        height: 75px;
+        color: #2F3238;
+        font-family: 'gagalinregular';
+        font-size: 72px;
+        text-align: center;
+        font-weight: 100;
+}
+.section__title {
+    font-family: 'gagalinregular',sans-serif;
+    font-size: 72px;
+    color: #f9b43b;
+    line-height: 1em;
+     }
+  
+  .section__title--orange {
+    color: #f9b43b; }
+  
+  .section__title--black {
+    color: #2f3234;
+    font-weight: 100; }
+  
+  .section__title--white {
+    color: #fff; }
+ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+.about__item {
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-left: 52px;
+}
+.about__list{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.div{
+    display: block;
+}
+.about__item-text {
+    font-family: 'ubuntulight';
+    text-align: center;
+}
+.about__title {
+    margin-bottom: 60px;
+    margin-left: 0px;
+    width: 300px;
+    height: 0px;
+    color: #2f3234;
+    font-family: 'lifehackmedium';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-top: 43px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+
+
+/*-------------- !!!!!!!!!!!!!!!!!!!СЕКЦИЯ ОТЗЫВЫ с фото !!!!!!!!!!!!!!!!!-------------*/
+  .reviews__list {
+    height: 100%;
+    flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	width: 1100px;
+	margin: 0px;
+}
+
+  .reviews__item {
+    width: 25%;
+}
+  
+  .review {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+  .review:hover .review__content {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 2; }
+  
+  .review__photo {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  
+  .review__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) scale(0.85);
+    -ms-transform: translate(-50%, -50%) scale(0.85);
+    opacity: 0;
+    padding: 15% 10% 0;
+    background: rgba(20, 20, 20, 0.7);
+    transition: .3s;
+}
+  
+  .review__title {
+    font-family: 'gagalinregular',sans-serif; 
+    color: #fff;
+}
+  
+  .review__text {
+    line-height: 24px;
+    font-family: 'ubuntulight',sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.review__button{
+    background-color: #2f3234;
+    width: 110px;
+    height: 35px;
+    border-radius:5px; 
+    justify-content: center;
+}

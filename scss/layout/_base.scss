@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'ubuntulight',Arial, Helvetica, sans-serif;
+    line-height: 1.42;
+    color: $dark;
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+*,*::before,*::after {
+    box-sizing:border-box;
+    }
+body,html{
+    height: 100%;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.visuallyhidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
